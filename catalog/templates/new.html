@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-success">
+
+<form action="" method="post">
+  <div class="container">
+   <div class="mt-5"><h2>please enter the new data</h2></div><br>
+   
+   <div class="form-group col-md-6">
+   <label for="name">name</label>
+   <input type="text" name="name" id="name" class="form-control" required="required">
+   </div> 
+  
+  <div class="form-group col-md-6">
+   <label for="surname">surname</label>
+   <input type="text" name="surname" id="surname" class="form-control" required="required">
+   </div> 
+   
+   <div class="form-group col-md-6">
+   <label for="mobile">mobile</label>
+   <input type="text" name="mobile" id="mobile" class="form-control" required="required">
+   </div> 
+   
+   <div class="form-group col-md-6">
+   <label for="email">email</label>
+   <input type="text" name="email" id="email" class="form-control" required="required">
+   </div> 
+   
+   <div class="form-group col-md-6">
+   <label for="branch">branch</label>
+   <input type="text" name="branch" id="branch" class="form-control" required="required">
+   </div> 
+   
+   <div class="form-group col-md-6">
+   <label for="role">role</label>
+   <input type="text" name="role" id="role" class="form-control" required="required">
+   </div> 
+   
+   <button type="submit" class="btn btn-success ml-5">submit</button>
+   <button type="cancel" class="btn btn-warning"><a href="{{url_for('showData')}}">cancel</button>
+   
+   
+</form>
+
+    
+
+ </div>    
+
+</body>
+</html>
